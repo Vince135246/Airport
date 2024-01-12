@@ -270,7 +270,7 @@ class MainActivity : AppCompatActivity() {
             holder.tvTerminalGate.text = dataList[position].Gate
             holder.tvFlightStatus.text = dataList[position].FlyType
             holder.tvDepartureAirportID.text = dataList[position].DepartureAirportID
-            holder.tvDepartureAirport.text = dataList[position].ArrivalAirport
+            holder.tvDepartureAirport.text = dataList[position].DepartureAirport
             holder.tvArrivalAirportID.text = dataList[position].ArrivalAirportID
             holder.tvArrivalAirport.text = dataList[position].ArrivalAirport
 
